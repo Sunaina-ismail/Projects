@@ -1,0 +1,20 @@
+{
+  "name": "naina6-bmi-calculator",
+  "version": "1.0.1",
+  "description": "A simple BMI calculator tool to estimate body mass index based on height and weight inputs.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"sunaina ismail\"",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.30"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  }
+}
