@@ -1,0 +1,25 @@
+{
+  "name": "naina-moneymagnet-atm",
+  "version": "1.0.0",
+  "description": "Experience seamless banking with ATM machine simulator powered by Typescript, Node.js and Inquirer.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "atm",
+    "machine",
+    "npm"
+  ],
+  "author": "Sunaina Ismail",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.30"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  }
+}
