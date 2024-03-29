@@ -3,6 +3,8 @@ import inquirer from "inquirer";
 let myBalance = 10000;
 let myPin = 1234;
 console.log("\x1b[1mWelcome to the ATM machine!\x1b[0m ");
+console.log("Your PIN is : \x1b[1m1234\x1b[0m");
+console.log("NOTE: \x1b[1mDon't share your PIN with others\x1b[0m");
 let yourPin = await inquirer.prompt({
     name: "pin",
     type: "number",
